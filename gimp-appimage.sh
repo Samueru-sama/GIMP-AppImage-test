@@ -17,7 +17,7 @@ cd ./AppDir
 # ADD LIBRARIES
 wget "$LIB4BN" -O ./lib4bin
 chmod +x ./lib4bin
-xvfb-run -a -- ./lib4bin -p -v -k -s -e -y \
+./lib4bin -p -v -k -s -y \
 	--python-pkg PyGObject \
 	/usr/bin/gimp* \
 	/usr/bin/gjs* \
